@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daung Art Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@500;700;900&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-shell">
+    <header class="header-bar">
+      <div class="container header-inner">
+        <div class="brand-block">
+          <a class="brand-logo" href="#home">
+<img src="assets/logo-daung-art-transparent.png" alt="Daung Art Project logo">
+          </a>
+        </div>
+        <nav class="nav-links" aria-label="Navigasi utama">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang</a>
+          <a href="#services">Layanan</a>
+          <a href="#pricing">Harga</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#gallery">Galeri</a>
+          <a href="#location">Lokasi</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+        <div class="header-actions">
+          <span class="status-pill">System Status: <strong>ONLINE</strong></span>
+          <div class="header-contact">
+            <span>Kabupaten Banyuwangi</span>
+            <span>WA: +6285213037381</span>
+          </div>
+          <a class="cta-button" href="https://wa.me/6285213037381">Hubungi WhatsApp</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-panel" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="hero-eyebrow">Welcome to</div>
+            <h1>DAUNG <span>Art</span> PROJECT</h1>
+            <p>Music Arrangement · Recording Studio · Live Entertainment</p>
+            <p class="hero-text">Kami hadir untuk mewujudkan karya musik berkualitas profesional dengan aransemen terbaik, rekaman jernih, dan penampilan live berkesan.</p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary" href="https://wa.me/6285213037381">Hubungi WhatsApp</a>
+              <a class="btn btn-secondary" href="#portfolio">Lihat Portfolio</a>
+            </div>
+            <div class="hero-social">
+              <span>Ikuti kami:</span>
+              <a href="https://www.instagram.com/daung_art/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.facebook.com/asep.ripky" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://youtu.be/mlRFpkBJ4nU" target="_blank" rel="noopener">YouTube</a>
+            </div>
+          </div>
+
+<div class="hero-card cyber-panel cyber-cut-b">
+            <!-- Mechanical screws -->
+            <div class="screw top-left"></div>
+            <div class="screw top-right"></div>
+            <div class="screw bottom-left"></div>
+            <div class="screw bottom-right"></div>
+
+            <div class="hero-studio">
+              <div class="studio-top">
+                <div class="studio-brand">DAUNG Art</div>
+                <div class="led-status status-online">SYSTEM ONLINE</div>
+              </div>
+
+              <div class="studio-view">
+                <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?auto=format&fit=crop&w=1200&q=80" alt="Recording Studio">
+                <div class="studio-overlay">
+                  <div class="monitor-panel">Master Output</div>
+                  <div class="power-meter"></div>
+                </div>
+              </div>
+
+              <!-- Audio spectrum animation -->
+              <div class="spectrum-container">
+                <div class="spectrum-title">WAVEFORM ANALYSIS: ACTIVE</div>
+                <div class="audio-spectrum" id="spectrum"></div>
+              </div>
+
+              <!-- Audio controls (knob & LED meter) -->
+              <div class="audio-controls">
+                <div class="knob-wrapper">
+                  <span class="ctrl-label">VOLUME</span>
+                  <div class="audio-knob" id="knobVolume">
+                    <div class="knob-indicator"></div>
+                  </div>
+                </div>
+                <div class="led-meter">
+                  <span class="ctrl-label">GAIN METER</span>
+                  <div class="led-row">
+                    <div class="led green active"></div>
+                    <div class="led green active"></div>
+                    <div class="led yellow active"></div>
+                    <div class="led red blink"></div>
+                  </div>
+                </div>
+                <div class="knob-wrapper">
+                  <span class="ctrl-label">MASTER MIX</span>
+                  <div class="audio-knob" id="knobMix">
+                    <div class="knob-indicator" style="transform: rotate(45deg);"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="studio-status">
+                <div class="status-chip"><span></span> Studio Profesional</div>
+                <div class="status-chip"><span></span> Peralatan Berkualitas</div>
+                <div class="status-chip"><span></span> Audio Premium</div>
+              </div>
+
+              <!-- Cybernetic booking form -->
+              <form class="cyber-form" onsubmit="event.preventDefault(); window.location.href='https://wa.me/6285213037381';">
+                <div class="input-group">
+                  <label>PROJECT NAME</label>
+                  <input type="text" placeholder="Masukkan nama proyek..." required>
+                </div>
+                <div class="input-group">
+                  <label>AUDIO SERVICE TYPE</label>
+                  <select>
+                    <option>MUSIC ARRANGEMENT</option>
+                    <option>MIXING & MASTERING</option>
+                    <option>RECORDING SESSION</option>
+                    <option>COVER LAGU</option>
+                    <option>LIVE ENTERTAINMENT</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn-submit">
+                  <span>▶ EXECUTE ORDER</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container section-grid">
+          <div class="content-block">
+            <div class="section-title">
+              <span>TENTANG KAMI</span>
+              <h2>Studio kreatif dengan sentuhan industrial modern.</h2>
+            </div>
+            <p>Daung Art Project adalah studio musik yang bergerak dalam music arrangement, recording, live entertainment, dan produksi konten audio. Kami membantu musisi, penyanyi, dan content creator menghasilkan karya berkualitas dengan layanan terbaik.</p>
+            <a class="btn btn-secondary" href="#services">Selengkapnya</a>
+          </div>
+          <div class="info-panel cyber-panel cyber-cut-c">
+            <ul class="info-list">
+              <li><strong>•</strong> Music Arrangement</li>
+              <li><strong>•</strong> Recording Studio</li>
+              <li><strong>•</strong> Mixing & Mastering</li>
+              <li><strong>•</strong> Cover Lagu</li>
+              <li><strong>•</strong> Live Entertainment</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section service-cards" id="services">
+        <div class="container">
+          <div class="section-title centered">
+            <span>LAYANAN KAMI</span>
+            <h2>Solusi musik lengkap untuk kebutuhan Anda.</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-item cyber-panel cyber-cut-a">
+              <div class="icon-box">🎼</div>
+              <h3>Music Arrangement</h3>
+              <p>Aransemen lagu profesional untuk rekaman, konten, dan acara.</p>
+            </article>
+            <article class="service-item cyber-panel cyber-cut-b">
+              <div class="icon-box">🎙️</div>
+              <h3>Recording</h3>
+              <p>Rekaman vokal dan instrumen dengan peralatan studio berkualitas.</p>
+            </article>
+            <article class="service-item cyber-panel cyber-cut-c">
+              <div class="icon-box">🎛️</div>
+              <h3>Mixing & Mastering</h3>
+              <p>Produksi audio yang tajam, seimbang, dan siap tayang.</p>
+            </article>
+            <article class="service-item cyber-panel cyber-cut-d">
+              <div class="icon-box">🎵</div>
+              <h3>Cover Lagu</h3>
+              <p>Produksi cover lagu custom untuk promosi dan konten.</p>
+            </article>
+            <article class="service-item cyber-panel cyber-cut-e">
+              <div class="icon-box">🎤</div>
+              <h3>Live Entertainment</h3>
+              <p>Penampilan live event dengan nuansa profesional dan energik.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing" id="pricing">
+        <div class="container pricing-grid">
+<div class="price-panel cyber-panel cyber-cut-a">
+            <div class="panel-heading">
+              <span>DAFTAR HARGA</span>
+              <h3>Mulai dari 99K</h3>
+            </div>
+            <table>
+              <tbody>
+                <tr><td>Music Arrangement</td><td>Rp99.000</td></tr>
+                <tr><td>Recording Vocal</td><td>Rp99.000</td></tr>
+                <tr><td>Cover Lagu</td><td>Rp99.000</td></tr>
+                <tr><td>Mixing</td><td>Rp99.000</td></tr>
+                <tr><td>Mastering</td><td>Rp99.000</td></tr>
+                <tr><td>Rekaman Alat Musik</td><td>Rp99.000</td></tr>
+                <tr><td>Lagu Original</td><td>Hubungi Kami</td></tr>
+                <tr><td>Live Entertainment</td><td>Rp99.000</td></tr>
+              </tbody>
+            </table>
+            <p class="small-note">*Harga dapat berubah sesuai tingkat kesulitan, durasi lagu, dan kebutuhan produksi.</p>
+          </div>
+
+<div class="calculator-panel cyber-panel cyber-cut-d">
+            <div class="panel-heading">
+              <span>KALKULATOR ESTIMASI</span>
+              <h3>Hitung biaya awal</h3>
+            </div>
+            <form class="estimate-form" id="estimateForm">
+              <label><input type="checkbox" name="service" value="99000"> Music Arrangement</label>
+              <label><input type="checkbox" name="service" value="99000"> Recording Vocal</label>
+              <label><input type="checkbox" name="service" value="99000"> Cover Lagu</label>
+              <label><input type="checkbox" name="service" value="99000"> Mixing</label>
+              <label><input type="checkbox" name="service" value="99000"> Mastering</label>
+              <label><input type="checkbox" name="service" value="99000"> Rekaman Alat Musik</label>
+              <div class="estimate-total">
+                <span>Total Estimasi:</span>
+                <strong id="estimateValue">Rp0</strong>
+              </div>
+              <button type="button" class="btn btn-primary" onclick="calculateEstimate()">Lanjutkan Pesanan via WhatsApp</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+<section class="section portfolio" id="portfolio">
+        <div class="container section-title centered">
+          <span>PORTFOLIO TIKTOK</span>
+          <h2>Contoh hasil produksi dan performance kami.</h2>
+        </div>
+<div class="media-grid">
+          <article class="media-card cyber-panel cyber-cut-b">
+            <div class="media-thumb"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Live Performance"></div>
+            <div class="media-caption"><strong>Live Performance</strong><span>Video live show</span></div>
+          </article>
+          <article class="media-card cyber-panel cyber-cut-c">
+            <div class="media-thumb"><img src="https://images.unsplash.com/photo-1497032205916-ac775f0649ae?auto=format&fit=crop&w=900&q=80" alt="Recording Session"></div>
+            <div class="media-caption"><strong>Recording Session</strong><span>Proses studio</span></div>
+          </article>
+          <article class="media-card cyber-panel cyber-cut-d">
+            <div class="media-thumb"><img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=900&q=80" alt="Behind The Scene"></div>
+            <div class="media-caption"><strong>Behind The Scene</strong><span>Tim produksi</span></div>
+          </article>
+          <article class="media-card cyber-panel cyber-cut-e">
+            <div class="media-thumb"><img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=900&q=80" alt="Arrangement Project"></div>
+            <div class="media-caption"><strong>Arrangement Project</strong><span>Lagu custom</span></div>
+          </article>
+        </div>
+        <div class="gallery-action">
+          <a class="btn btn-primary" href="https://youtu.be/mlRFpkBJ4nU" target="_blank" rel="noopener">▶ Tonton Karya Kami di YouTube</a>
+        </div>
+        <div class="youtube-grid">
+          <div class="youtube-frame">
+            <iframe src="https://www.youtube.com/embed/mlRFpkBJ4nU" title="Karya Daung Art Project 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="youtube-frame">
+            <iframe src="https://www.youtube.com/embed/9pq1-ZjynpM" title="Karya Daung Art Project 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="youtube-frame">
+            <iframe src="https://www.youtube.com/embed/I7t_H5dyV_M" title="Karya Daung Art Project 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="youtube-frame">
+            <iframe src="https://www.youtube.com/embed/fLDUSiwWxxk" title="Karya Daung Art Project 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="container section-title centered">
+          <span>GALERI</span>
+          <h2>Kumpulan momen studio dan live show.</h2>
+        </div>
+        <div class="gallery-nav">
+          <button class="tab active">Semua</button>
+          <button class="tab">Studio</button>
+          <button class="tab">Live</button>
+          <button class="tab">Behind The Scene</button>
+          <button class="tab">Peralatan</button>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="assets/photo-1.jpg" alt="Gallery photo 1"></div>
+          <div class="gallery-item"><img src="assets/photo-2.jpg" alt="Gallery photo 2"></div>
+          <div class="gallery-item"><img src="assets/photo-3.jpg" alt="Gallery photo 3"></div>
+          <div class="gallery-item"><img src="assets/photo-4.jpg" alt="Gallery photo 4"></div>
+          <div class="gallery-item"><img src="assets/photo-5.jpg" alt="Gallery photo 5"></div>
+          <div class="gallery-item"><img src="assets/photo-6.jpg" alt="Gallery photo 6"></div>
+          <div class="gallery-item"><img src="assets/photo-7.jpg" alt="Gallery photo 7"></div>
+          <div class="gallery-item"><img src="assets/photo-8.jpg" alt="Gallery photo 8"></div>
+          <div class="gallery-item"><img src="assets/photo-9.jpg" alt="Gallery photo 9"></div>
+          <div class="gallery-item"><img src="assets/photo-10.jpg" alt="Gallery photo 10"></div>
+          <div class="gallery-item video-item"><video controls muted src="assets/behind-scene-1.mp4"></video></div>
+          <div class="gallery-item video-item"><video controls muted src="assets/behind-scene-2.mp4"></video></div>
+          <div class="gallery-item video-item"><video controls muted src="assets/behind-scene-3.mp4"></video></div>
+          <div class="gallery-item video-item"><video controls muted src="assets/behind-scene-4.mp4"></video></div>
+          <div class="gallery-item video-item"><video controls muted src="assets/behind-scene-5.mp4"></video></div>
+        </div>
+        <div class="gallery-action"><a class="btn btn-secondary" href="#">Lihat Semua Galeri</a></div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container section-title centered">
+          <span>TESTIMONI</span>
+          <h2>Pelanggan puas dengan hasil produksi kami.</h2>
+        </div>
+        <div class="testimonial-grid">
+<article class="testimonial-card cyber-panel cyber-cut-a">
+            <div class="review-stars">★★★★★</div>
+<p>Hasil recording mantap, aransemen jernih, dan rekomendasi ciamik. Recommended!</p>
+            <div class="reviewer">Riky, Singer</div>
+          </article>
+<article class="testimonial-card cyber-panel cyber-cut-b">
+            <div class="review-stars">★★★★★</div>
+<p>Aransemen nya keren, sesuai keinginan dan hasilnya melebihi ekspektasi.</p>
+            <div class="reviewer">Dinda, Content Creator</div>
+          </article>
+<article class="testimonial-card cyber-panel cyber-cut-c">
+            <div class="review-stars">★★★★★</div>
+<p>Proses cepat, komunikatif, dan hasil mixing mastering nya sangat profesional.</p>
+            <div class="reviewer">Bayu, Musician</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section location" id="location">
+        <div class="container location-grid">
+          <div class="location-card cyber-panel cyber-cut-c">
+            <div class="section-title">
+              <span>LOKASI STUDIO</span>
+              <h2>Daung Art Project</h2>
+            </div>
+            <p>Jl. H. Muso, Bades Karang Bendo, Kec. Badas, Kab. Banyuwangi, Jawa Timur</p>
+            <div class="location-actions">
+              <a class="btn btn-secondary" href="https://maps.google.com/?q=Kabupaten+Banyuwangi%2C+Jawa+Timur">Lihat di Google Maps</a>
+              <a class="btn btn-primary" href="https://wa.me/6285213037381">Hubungi WhatsApp</a>
+            </div>
+          </div>
+          <div class="map-card">
+            <iframe src="https://maps.google.com/maps?q=Kabupaten%20Banyuwangi%2C%20Jawa%20Timur&t=&z=12&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Lokasi studio"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card cyber-panel cyber-cut-b">
+            <div class="section-title">
+              <span>BOOKING & KONSULTASI</span>
+              <h2>Konsultasi gratis dan booking via WhatsApp.</h2>
+            </div>
+            <p>Respon cepat, harga terjangkau, hasil berkualitas. Kami siap menangani project musik Anda dengan proses yang jelas dan profesional.</p>
+            <ul>
+              <li><strong>WhatsApp:</strong> +6285213037381</li>
+              <li>Respon Cepat</li>
+              <li>Harga Terjangkau</li>
+              <li>Konsultasi Gratis</li>
+              <li>Hasil Berkualitas</li>
+            </ul>
+<a class="btn btn-primary" href="https://wa.me/6285213037381">Hubungi Kami via WhatsApp</a>
+            <div class="social-links">
+              <a class="btn btn-secondary" href="https://www.instagram.com/daung_art/" target="_blank" rel="noopener">📷 Instagram</a>
+              <a class="btn btn-secondary" href="https://www.facebook.com/asep.ripky" target="_blank" rel="noopener">👍 Facebook</a>
+            </div>
+          </div>
+          <div class="contact-card onair-card cyber-panel cyber-cut-d">
+            <div class="onair-badge">ON AIR</div>
+            <div class="studio-clock">Senin - Sabtu<br>09.00 - 21.00</div>
+            <div class="studio-note">Minggu by appointment</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <div class="container footer-content">
+        <div class="footer-branding">
+          <div>© 2026 Daung Art Project. All Rights Reserved.</div>
+          <div>Music Arrangement • Recording Studio • Live Entertainment</div>
+        </div>
+<div class="footer-contact">
+          <div>Banyuwangi, Jawa Timur</div>
+          <div>WA: +6285213037381</div>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/daung_art/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/asep.ripky" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://youtu.be/mlRFpkBJ4nU" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
