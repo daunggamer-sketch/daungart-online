@@ -20,7 +20,8 @@
 - [x] Sinkronkan perubahan ke docs/ dan daungart-online/
 
 ## Deploy & Verifikasi
-- [ ] Commit & push ke GitHub (memicu GitHub Pages) + GitLab
-- [ ] Verifikasi robots.txt & sitemap.xml live
-- [ ] Siapkan panduan Google Search Console (verifikasi + submit sitemap)
-- [ ] Buat laporan sebelum-sesudah
+- [x] Commit & push ke GitHub (memicu GitHub Pages) + GitLab
+- [x] Verifikasi robots.txt & sitemap.xml live (HTTP 200)
+- [x] Verifikasi title, canonical, description, schema, & alamat live
+- [x] Siapkan panduan Google Search Console (verifikasi + submit sitemap)
+- [x] Buat laporan sebelum-sesudah

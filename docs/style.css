@@ -1396,3 +1396,176 @@ button,
   }
 }
 
+/* ====== JASA PEMBUATAN WEBSITE (LAYANAN BARU) ====== */
+.website-service {
+  padding-block: 90px;
+}
+
+.website-service .section-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: 'Sora', sans-serif;
+}
+
+.websrv-grid {
+  margin-top: 8px;
+}
+
+.websrv-grid .service-item {
+  display: grid;
+  gap: 18px;
+}
+
+.websrv-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 44px;
+  text-align: center;
+}
+
+.btn-lg {
+  padding: 16px 34px;
+  font-size: 1.05rem;
+  border-radius: 12px;
+}
+
+.websrv-cta-note {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Proses Pengerjaan */
+.websrv-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.step-card {
+  padding: 28px 24px;
+  display: grid;
+  gap: 14px;
+  background: linear-gradient(180deg, rgba(20, 25, 30, 0.96), rgba(10, 13, 16, 0.97));
+  border: 1px solid rgba(0, 229, 255, 0.16);
+  border-radius: 16px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+    inset 0 2px 0 rgba(255, 255, 255, 0.05),
+    0 26px 70px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 229, 255, 0.4);
+  box-shadow: 0 30px 80px rgba(0, 229, 255, 0.12);
+}
+
+.step-num {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--turq-2);
+  text-shadow: 0 0 18px rgba(0, 229, 255, 0.4);
+  line-height: 1;
+}
+
+.step-card:nth-child(even) .step-num {
+  color: var(--orange);
+  text-shadow: 0 0 18px rgba(255, 138, 61, 0.4);
+}
+
+.step-card h3 {
+  font-size: 1.1rem;
+  color: #eaf4f7;
+  font-family: 'Sora', sans-serif;
+}
+
+.step-card p {
+  color: #93a5ad;
+  line-height: 1.75;
+}
+
+/* FAQ */
+.websrv-faq {
+  display: grid;
+  gap: 16px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(20, 25, 30, 0.96), rgba(10, 13, 16, 0.97));
+  border: 1px solid rgba(0, 229, 255, 0.16);
+  padding: 6px 22px;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(0, 229, 255, 0.4);
+  box-shadow: 0 18px 60px rgba(0, 229, 255, 0.1);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  padding: 18px 0;
+  font-weight: 700;
+  color: #eaf4f7;
+  font-family: 'Sora', sans-serif;
+  font-size: 1.02rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '+';
+  font-size: 1.4rem;
+  color: var(--turq-2);
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+  transition: transform 0.25s ease;
+}
+
+.faq-item[open] summary::after {
+  content: '−';
+  color: var(--orange);
+  text-shadow: 0 0 10px rgba(255, 138, 61, 0.4);
+}
+
+.faq-item p {
+  padding: 0 0 20px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* Responsive website service */
+@media (max-width: 1100px) {
+  .websrv-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .websrv-grid .service-item,
+  .websrv-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-lg {
+    width: 100%;
+  }
+}
+
